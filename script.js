@@ -11,11 +11,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
 
 
 
-var marker = L.marker([43.302833, 5.386664]).addTo(mymap);
-
-marker.bindPopup("Les Paniers Marseillais")
-
-Papa.parse("/data/annuaire.geocoded.csv", {
+Papa.parse("data/annuaire.geocoded.csv", {
     download: true,
     header: true,
     complete: function(results) {
