@@ -1,5 +1,5 @@
 
-var mymap = L.map('map').setView([43.2804, 5.3806], 13);
+var mymap = L.map('map').setView([43.2804, 5.3806], 12);
 
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiYmVub2l0Z3VpZ2FsIiwiYSI6ImNqdThob2Y5MDA5Zmg0NG4wMHg4Ynl0MHgifQ.CpODeh1akjBOEIXye5JXcQ', {
